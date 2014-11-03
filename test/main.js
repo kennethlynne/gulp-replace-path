@@ -6,7 +6,7 @@ var should = require('should');
 var gutil = require('gulp-util');
 require('mocha');
 
-describe('gulp-replace', function() {
+describe('gulp-replace-path', function() {
   describe('replacePlugin()', function() {
     it('should replace string on a stream', function(done) {
       var file = new gutil.File({

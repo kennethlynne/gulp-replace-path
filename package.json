@@ -1,5 +1,5 @@
 {
-  "name": "gulp-replace",
+  "name": "gulp-replace-path",
   "version": "0.4.0",
   "description": "A string replace plugin for gulp",
   "main": "index.js",
@@ -18,16 +18,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/lazd/gulp-replace.git"
+    "url": "git://github.com/kennethlynne/gulp-replace-path.git"
   },
   "keywords": [
     "gulpplugin",
     "replace"
   ],
-  "author": "Larry Davis <lazdnet@gmail.com>",
+  "author": [
+    "Larry Davis <lazdnet@gmail.com>",
+    "Kenneth Lynne <kenneth.lynne@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lazd/gulp-replace/issues"
+    "url": "https://github.com/kennethlynne/gulp-replace-path/issues"
   },
   "engines": {
     "node": ">=0.8"

@@ -6,7 +6,7 @@ var should = require('should');
 var gutil = require('gulp-util');
 require('mocha');
 
-describe('gulp-replace', function() {
+describe('gulp-replace-path', function() {
   describe('real world use cases', function() {
     it('drop use strict on a buffer', function(done) {
       var file = new gutil.File({
