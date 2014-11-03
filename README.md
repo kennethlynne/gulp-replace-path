@@ -1,6 +1,11 @@
 # gulp-replace-path [![NPM version][npm-image]][npm-url] [![Build status][travis-image]][travis-url]
 > A string replace plugin for gulp 3 that supports injecting file path.
 
+## TODO:
+* Fix tests
+* Fix documentation
+* Implement dynamic injection
+
 ## Usage
 
 First, install `gulp-replace-path` as a development dependency:
