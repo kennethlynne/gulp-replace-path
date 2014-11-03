@@ -19,12 +19,20 @@ gulp.task('templates', function(){
   gulp.src(['file.txt'])
     .pipe(replace(/foo(.{3})/g, '$1foo'))
     .pipe(replace('{./}', function (match, __absolutePath__) {
-      return path.dirname(path.relative(paths.src, __absolutePath__));
+      return path.dirname(path.relative('somePath/', __absolutePath__));
     }))
     .pipe(gulp.dest('build/file.txt'));
 });
 ```
 
+In some target file you may set some variable based on the files current location
+```javascript
+function pathifyThis() {
+  return {
+    templateUrl: '{./}/template.html'
+  }
+}
+```
 
 ## API
 
